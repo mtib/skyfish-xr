@@ -1,2 +1,2 @@
 # skyfish-xr
-SkyFish but WebXR
+Skyfish but WebXR

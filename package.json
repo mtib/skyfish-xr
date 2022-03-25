@@ -1,0 +1,26 @@
+{
+  "name": "skyfish-xr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mtib/skyfish-xr.git",
+  "author": "Markus Becker <mtib.becker@gmail.com>",
+  "license": "Apache",
+  "dependencies": {
+    "@react-three/drei": "^8.19.2",
+    "@react-three/fiber": "^7.0.26",
+    "@react-three/xr": "^3.4.0",
+    "parcel": "^2.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.139.0"
+  },
+  "scripts": {
+    "start": "yarn exec parcel serve src/skyfish.html",
+    "build": "yarn exec parcel build src/skyfish.html"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "buffer": "^6.0.3"
+  }
+}
